@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+
+  <!-- Add Font Awesome CSS link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+
+  <header>
+    <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="mailto:your.email@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="social-icons"><a href=""><i class="fas fa-phone"></i> &nbsp;65446546</a> 
+    <a href="#"><i class="fas fa-envelope"></i>&nbsp;example@gmail.com</a>
+    </div>
+    <div class="cta-btn">Request A Consult</div>
+  </header>
+
+  <nav>
+    
+    <div class="logo">LANDING PAGE</div>
+    <ul>
+      <li>Home</li>
+      <li>Blog</li>
+      <li>Page</li>
+      <li>Services</li>
+      <li>Testimonial</li>
+      <li>Contact</li>
+    </ul>
+    <div class="cta-btn">Buy Now</div>
+    <div class="search-icon"><i class="fas fa-search"></i></div>
+  </nav>
+
+  <div class="custom-div">
+    <div class="text-container">
+      <div class="title">Professional Team at Work</div>
+      <div class="subtitle">Collaborating for Success</div>
+      <div class="buttons-container">
+        <a href="#" class="button">Learn More</a>
+        <a href="#" class="button">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  
+  
+<!--     phase 3 -->
+  
+  <div class="tabs">
+    <div  class="tab"> <h2 class="tab-main"><i class="fas fa-rocket"></i> LAUNCH BUSINESS</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, id!</p>
+    </div>
+
+    <div class="tab"><h2 class="tab-main"><i class="fa-solid fa-address-book"></i> ONLINE SUPPORT TEAM</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, id!</p>
+    </div>
+
+    
+    <div class="tab"><h2 class="tab-main"><i class="fa-regular fa-clock"></i> TIME MANAGEMENT</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, id!</p>
+    </div>
+
+    <div></div>
+    <div></div>
+  </div>
+  <div class="about">
+    <div class="content">
+        <h1>ABOUT US</h1>
+        <hr>
+        <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, fuga.</h6>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, labore. Deserunt, inventore iste aut ut accusamus labore in atque provident a unde architecto delectus dignissimos corrupti aperiam quam nemo. Eos facere veniam eveniet qui amet sequi sint eum tempore laboriosam laudantium illum, error accusamus quo non consectetur recusandae iusto perspiciatis!
+        </p>
+        <div class="buttons-container">
+            <a href="#" class="button">Learn More</a>
+          </div>
+    </div>
+    <div class="about-img"><img src="https://source.unsplash.com/1600x900/?man" alt=""></div>
+    
+</div>
+  </div>
+    <div class="services">
+        <h1>OUR SERVICES</h1>
+        <hr style="width: 20%; margin-left:0% ;">
+        <div class="services-container">
+            <div class="service-card">
+            <img src="https://source.unsplash.com/400x300/?laptop" alt="Service 1">
+            <h3>USER EXPERINCE</h3>
+            </div>
+            <div class="service-card">
+            <img src="https://source.unsplash.com/400x300/?notebook" alt="Service 2">
+            <h3>CREATIVE DESIGN</h3>
+            </div>
+            <div class="service-card">
+            <img src="https://source.unsplash.com/400x300/?doodle" alt="Service 3">
+            <h3>RETINA READY</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <h1>Testimonials</h1>
+        <hr style="width: 20%; margin-left:0% ;">
+    <div class="testimonial-container">
+        <div class="testimonial-carousel">
+          <div class="testimonial">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris."</p>
+            <p class="author">- John Doe</p>
+          </div>
+          <div class="testimonial">
+            <p>"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."</p>
+            <p class="author">- Jane Smith</p>
+          </div>
+          <div class="testimonial">
+            <p>"Vivamus sit amet interdum turpis. Donec pulvinar cursus urna, sit amet ullamcorper mauris eleifend vel."</p>
+            <p class="author">- Alice Johnson</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-us">
+        <h1>CONTACT US</h1>
+        
+        <hr style="width: 20%; margin-left:0% ;">
+    <div class="contact-container">
+        <div class="contact-form">
+          
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2023 Your Company. All rights reserved.</p>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
+</html>
+
+</body>
+</html>
+    
+</body>
+</html>
+
+</body>
+</html>
